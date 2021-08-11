@@ -1,0 +1,32 @@
+name: rw_material_transitions
+description: A new Flutter project used to demonstrate the use of the animations provided by the animations package.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Semibold.ttf
+          weight: 600
+        - asset: assets/fonts/Lato-Italic.ttf
+          style: italic
+  
