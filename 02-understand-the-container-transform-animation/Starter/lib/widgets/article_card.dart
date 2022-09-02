@@ -6,6 +6,19 @@ class ArticleCard extends StatelessWidget {
 
   const ArticleCard({Key? key, this.article}) : super(key: key);
 
+  // @override
+  // Widget build(BuildContext context) {
+  //   bool isPortrait =
+  //       MediaQuery.of(context).orientation == Orientation.portrait;
+  //   return Card(
+  //     margin: EdgeInsets.all(16),
+  //     elevation: 4,
+  //     child:
+  //         isPortrait ?
+  //          TallCard(article: article) :
+  //          WideCard(article: article),
+  //   );
+  // }
   @override
   Widget build(BuildContext context) {
     return Card(

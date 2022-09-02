@@ -2,11 +2,10 @@ name: rw_material_transitions
 description: A new Flutter project used to demonstrate the use of the animations provided by the animations package.
 
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.19.0-154.0.dev <3.0.0'
 
 dependencies:
   flutter:
@@ -15,10 +14,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
-  
   assets:
     - assets/images/
   fonts:
@@ -29,4 +28,3 @@ flutter:
           weight: 600
         - asset: assets/fonts/Lato-Italic.ttf
           style: italic
-  

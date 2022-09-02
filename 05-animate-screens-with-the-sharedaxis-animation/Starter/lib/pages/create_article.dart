@@ -103,12 +103,13 @@ class _CreateArticleState extends State<CreateArticle> {
                 onPressed: () {
                   final form = _formKey.currentState!;
                   FocusScope.of(context).unfocus();
-                  if (form.validate()) {
-                    form.save();
-                    print(formData);
-                    form.reset();
-                    _showResultDialog(context);
-                  }
+                  // if (form.validate()) {
+                  //   form.save();
+                  //   print(formData);
+                  //   form.reset();
+                  //   _showResultDialog(context);
+                  // }
+                  _showResultDialog(context);
                 },
                 child: const Text('Save'),
               )
